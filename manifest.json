@@ -1,12 +1,17 @@
 {
-	"name":"JumpADS",
-	"version":"0.6.14.1",
-	"description":"Pule anúncios que seu canal favorito do YouTube sempre coloca nos vídeos.",
-	"browser_action":{
-		"default_popup":"index.html" },
-	"icons":{   "16": "jads16.png",
-           		"48": "jads48.png",
-          		"128": "jads128.png" },
+    "manifest_version": 2,
 
-	"manifest_version":2
+    "name": "JumpADS",
+    "version": "0.6.14.1",
+    "description": "Pule anúncios que seu canal favorito do YouTube sempre coloca nos vídeos.",
+
+    "icons": {
+	"16": "assets/jads16.png",
+        "48": "assets/jads48.png",
+        "128": "assets/jads128.png"
+    },
+
+    "browser_action": {
+	"default_popup": "index.html"
+    }
 }
