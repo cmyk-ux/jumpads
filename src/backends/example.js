@@ -1,1 +1,6 @@
-console.log("Hello from example backend!");
+// --
+export const meta = {
+    "name": "example"
+}
+
+// --
